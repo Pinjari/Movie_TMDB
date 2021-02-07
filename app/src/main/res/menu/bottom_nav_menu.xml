@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_nowplay"
+        android:icon="@drawable/ic_movie_white_24dp"
+        android:title="@string/title_NowPlay" />
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/title_Search" />
+
+    <item
+        android:id="@+id/navigation_mypage"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_Mypage" />
+
+</menu>

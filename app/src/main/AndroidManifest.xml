@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mra.mvvm_tmdb">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="com.mra.mvvm_tmdb.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/tmdb"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/tmdb"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name="com.mra.mvvm_tmdb.ui.MyPage.Add.ListActivity"></activity>
+        <activity android:name="com.mra.mvvm_tmdb.ui.MyPage.Add.AddActivity" />
+        <activity android:name="com.mra.mvvm_tmdb.ui.Detail.DetailInfo" />
+        <activity android:name="com.mra.mvvm_tmdb.ui.ImageSearch.ImageActivity" />
+        <activity
+            android:name="com.mra.mvvm_tmdb.MainActivity"
+            android:label="@string/title_activity_main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
